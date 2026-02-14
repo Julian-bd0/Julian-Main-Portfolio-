@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/Julian-Main-Portfolio/',  // 👈 repo নাম অনুযায়ী
+    base: '/Julian-Main-Portfolio/', 
 
     server: {
       port: 3000,
